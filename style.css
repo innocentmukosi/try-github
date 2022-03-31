@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans serif;
+  
+}
+.container{
+    height:100vh ;
+    width: 100%;
+    background-image: url(20220328_161719.jpg);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+  
+}
+span{
+  color: goldenrod;
+}
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+  }
+  .menu,ul{float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .menu,ul li{
+    list-style: none;
+    padding: 2px;
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 16px;
+   
+  }
+  .menu,ul li a{
+    color: black;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform: capitalize;
+  
+  }
+  .menu,ul li a:hover{
+    color: green;
+    transition: .4s;
+  }
+  .btn{
+    background-color: green;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 50px;
+    border-radius:30px;
+    transition: transform .4s;
+    text-align: center;
+  
+  }
+  .btn:hover{
+  transform: scale(1.2);
+  }
+.card{
+  width: 400px;
+  box-sizing: border-box;
+  height: 600px;
+  color: black;
+  text-align:center;
+  padding: 40px;
+  border: 10px solid rgba(250,250,250,0.3);
+background: rgba(green);
+border-radius: 50px;
+box-shadow: 0.4px 30px;
+backdrop-filter: blur(5px);
+margin-top: 20px;
+}
+.card img{
+  width:180px;
+  border-radius:30%; 
+}
+.card h2{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 20px;
+  color:goldenrod;
+}.card h4{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: white;
+}
+.card p{
+  font-size:18px;
+  margin: 10px auto;
+  max-width: 330px;
+  color:black;
+}
+.card.links{
+  width:40px ;
+  border-radius: 50%;
+  margin: 10px;
+  padding-top: 5px;
+}
+card.links :hover{
+  background: black;
+
+}
+  .btn{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px;
+    border-radius: 30px;
+    transition: .4s;
+    
+  }btn:hover{
+    background-color: transparent;
+    border: 2px solid green;
+    cursor: pointer;
+}
+.about{
+  width: 100%;
+  padding: 100px opx;
+  background-color:black;
+
+}
+.about text{
+  width: 550px;
+}
+.main{
+  width: 1120px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.about-text h1{
+color: white;
+font-size: 75px;
+text-transform: capitalize;
+margin-bottom: 20px;
+background-color:BLACK;
+text-align: center;
+}
+.about-text h3{
+  color:black;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+  
+  }
+  .about-text p{
+    color: goldenrod;
+    font-size: 35px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+  services{
+    background:green;
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .title h2{
+    color: white;
+    font-size: 75;
+    width: 1120px;
+    text-align: center;
+    margin: 30px auto;
+  
+
+  }
+  .box{
+    height: 365px;
+    width: 345px;
+    padding: 20px 35px;
+    background:goldenrod;
+    border-radius: 20px;
+    position: static;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    margin-left:70px ;
+    margin: 3%;
+    background-color:black;
+
+  }
+  .box i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #191919;
+
+  }
+  .h5{font-size: 16px;
+    color:white;
+
+}
+.pra p{
+  color:white;
+  font-size: 16px;
+  line-height:27px;
+  margin-bottom: 25px;
+}
+.box.button{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 50px;
+  border-radius:30px;
+  transition: transform .4s;
+  text-align: center;
+}
+.box:hover{
+background-color: black;
+border: 2px solid goldenrod;
+cursor: pointer;
+
+}
+.contact-me{
+  width: 100%;
+  height: 290px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.contact-me p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+
+}contact-me.button-two{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px;
+  border-radius: 30px;
+  transition: .4s;
+}
+.links-2{
+
+text-align: center;
+}
+.contact-me{
+  color: white;
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  background-color:BLACK;
+  text-align: center;
+   
+}
+.contact-me.button-two:hover{
+  background-color: transparent;
+  color: darkorange;
+  cursor: pointer;
+}
